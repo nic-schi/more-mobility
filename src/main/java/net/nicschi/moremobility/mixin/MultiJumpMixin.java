@@ -3,10 +3,8 @@ package net.nicschi.moremobility.mixin;
 import net.minecraft.client.MinecraftClient;
 import net.minecraft.client.network.ClientPlayerEntity;
 import net.minecraft.enchantment.EnchantmentHelper;
-import net.minecraft.entity.damage.DamageSource;
 import net.minecraft.sound.SoundCategory;
 import net.minecraft.sound.SoundEvents;
-import net.minecraft.world.World;
 import net.nicschi.moremobility.enchantments.ModEnchantments;
 import org.spongepowered.asm.mixin.Final;
 import org.spongepowered.asm.mixin.Mixin;
@@ -14,12 +12,13 @@ import org.spongepowered.asm.mixin.Shadow;
 import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.injection.Inject;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
-import org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable;
 
 @Mixin(ClientPlayerEntity.class)
 public class MultiJumpMixin {
 
-    @Shadow @Final protected MinecraftClient client;
+    @Shadow
+    @Final
+    protected MinecraftClient client;
     private int jumpCount = 0;
     private boolean playerJumpedOnLastTick = false;
 

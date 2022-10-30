@@ -1,3 +1,6 @@
 {
-  "enchantment.more-mobility.multi_jump": "Multijump"
+  "enchantment.more-mobility.multi_jump": "Multijump",
+  "item.more-mobility.slime_sling": "Slimesling",
+  "item.more-mobility.slime_boots": "Slime Boots",
+  "itemGroup.more-mobility.more-mobility-itemgroup": "More Mobility"
 }

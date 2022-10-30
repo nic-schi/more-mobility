@@ -2,7 +2,6 @@
   "schemaVersion": 1,
   "id": "more-mobility",
   "version": "${version}",
-
   "name": "More Mobility Mod",
   "description": "This is an example description! Tell everyone what your mod is about!",
   "authors": [
@@ -11,10 +10,8 @@
   "contact": {
     "sources": "https://github.com/nic-schi/more-mobility"
   },
-
   "license": "MIT License",
   "icon": "assets/more-mobility/icon.png",
-
   "environment": "*",
   "entrypoints": {
     "main": [
@@ -27,7 +24,6 @@
   "mixins": [
     "more-mobility.mixins.json"
   ],
-
   "depends": {
     "fabricloader": ">=0.14.9",
     "fabric-api": "*",

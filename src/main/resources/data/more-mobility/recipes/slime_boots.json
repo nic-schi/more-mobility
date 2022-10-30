@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "X X",
+    "# #"
+  ],
+  "key": {
+    "X": {
+      "item": "minecraft:slime_ball"
+    },
+    "#": {
+      "item": "minecraft:slime_block"
+    }
+  },
+  "result": {
+    "item": "more-mobility:slime_boots"
+  }
+}

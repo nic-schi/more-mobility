@@ -1,3 +1,6 @@
 {
-  "enchantment.more-mobility.multi_jump": "Mehrfachsprung"
+  "enchantment.more-mobility.multi_jump": "Mehrfachsprung",
+  "item.more-mobility.slime_sling": "Schleimschleuder",
+  "item.more-mobility.slime_boots": "Schleimstiefel",
+  "itemGroup.more-mobility.more-mobility-itemgroup": "More Mobility"
 }

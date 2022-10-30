@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "OXO",
+    "# #",
+    " # "
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:slime_ball"
+    },
+    "X": {
+      "item": "minecraft:slime_block"
+    },
+    "O": {
+      "item": "minecraft:string"
+    }
+  },
+  "result": {
+    "item": "more-mobility:slime_sling"
+  }
+}
