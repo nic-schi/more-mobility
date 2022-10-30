@@ -1,29 +1,31 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "more-mobility",
   "version": "${version}",
 
-  "name": "Example Mod",
+  "name": "More Mobility Mod",
   "description": "This is an example description! Tell everyone what your mod is about!",
   "authors": [
-    "Me!"
+    "Nichlas Schipper"
   ],
   "contact": {
-    "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+    "sources": "https://github.com/nic-schi/more-mobility"
   },
 
-  "license": "CC0-1.0",
-  "icon": "assets/modid/icon.png",
+  "license": "MIT License",
+  "icon": "assets/more-mobility/icon.png",
 
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.fabricmc.example.ExampleMod"
+      "net.nicschi.moremobility.MoreMobility"
+    ],
+    "client": [
+      "net.nicschi.moremobility.MoreMobilityClient"
     ]
   },
   "mixins": [
-    "modid.mixins.json"
+    "more-mobility.mixins.json"
   ],
 
   "depends": {
@@ -32,7 +34,5 @@
     "minecraft": "~1.19",
     "java": ">=17"
   },
-  "suggests": {
-    "another-mod": "*"
-  }
+  "suggests": {}
 }
